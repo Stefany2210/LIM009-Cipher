@@ -1,23 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title> DESCUBRE </title>
+   
+    <title> PLANEADOR </title>
     <link rel="stylesheet" href="style.css" />
   </head>
- 
   <body>
-    <div id="first">
-      <h1> Bienvenidx </h1>
-      <p> Escribe el texto y descubre la magia </p>
-      <input type="text" id="frase" placeholder="Ingresa la frase">
-      <input type="number" id= "movimiento" placeholder="Desplazamiento">
-      <button class="btn" id= "encriptar" > Encriptar 🔒 </button>
-      <textarea id="texto-cifrado"> </textarea> 
-      <button class="btn" id="descifrar" > Descifrar 🔓 </button> 
-      <textarea id="texto-descifrado"> </textarea> 
+    
+<!--1ra pantalla-->
+    <article id = "first"> 
+     <h1> 🎒 Mochileando ando 🎒 </h1>
+       <p> 🌄 Ingresa tus datos 🌄 </p>
+        <input id="usuary" class="cajita" type="text" name="Usuario" placeholder="Ingrese usuario">
+        <input type="password" class="cajita" name="Usuario" placeholder="Ingrese contraseña">
+          <button id="ingreso" class="btn"> Ingresar </button>
+    </article>
+    
+<!--2da pantalla-->
+
+<article id="second">
+
+    <div class="menu">
+        <a href="index.html" > CERRAR SESIÓN </a>
     </div>
+
+    <h2 id="saludo" > Bienvenidx </h2>
+    <p> “Como todos los grandes viajeros, he visto más de lo que puedo recordar, y recuerdo más que lo que he visto” </p>
+
+      <button id="iniciar" class="btn"> Iniciar 🔒/🔓 </button>
+      
+
+    </article>
+
+<!--3ra pantalla-->
+
+  <article id="third">
+
+    <div class="menu">
+        <a href="index.html" > CERRAR SESIÓN </a>
+    </div>
+    
+    <div class="div">
+        <h3> Ingresa el Texto a Encriptar 🔒 </h3>
+      <input id="frase" class="caja" type="text" name="usuario" placeholder="Ingrese un texto">       
+          <p class="segundo"> Escoge el número de desplazamientos </p>    
+          <input type="number" id= "movimiento" class="btn" name="desplazamiento" placeholder="Número">   
+           
+        <button id="encriptar" class="btn"> Resultado 🔎 </button>
+        <textarea id="texto-cifrado" class="caja"> </textarea> 
+    
+        <br>
+        <br>
+        <br>
+
+        <h4> Ingresa el Texto a Descrifrar 🔒 </h4>
+        <input  id="frase1" class="caja" type="text" name="usuario" placeholder="Ingrese un texto">       
+            <p class="segundo"> Escoge el número de desplazamientos </p>    
+            <input type="number" id= "movimiento1" class="btn" name="desplazamiento" placeholder="Número">   
+             
+          <button id="descifrar" class="btn"> Resultado 🔎 </button>
+          <textarea id="texto-descifrado" class="caja"> </textarea>
+      </div> 
+
+    </article>
+               
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    
   </body>
+ 
 </html>
