@@ -9,12 +9,16 @@
   <body>
     
 <!--1ra pantalla-->
+
     <article id = "first"> 
-     <h1> 🎒 Mochileando ando 🎒 </h1>
-       <p> 🌄 Ingresa tus datos 🌄 </p>
+        <h1> 🌎 Mochileando ando 🌎 </h1>
+        <p> 🌄 Ingresa tus datos 🌄 </p>
         <input id="usuary" class="cajita" type="text" name="Usuario" placeholder="Ingrese usuario">
+        <br>
         <input type="password" class="cajita" name="Usuario" placeholder="Ingrese contraseña">
-          <button id="ingreso" class="btn"> Ingresar </button>
+        <br>
+        <button id="ingreso" class="btn"> Ingresar </button>
+
     </article>
     
 <!--2da pantalla-->
@@ -43,31 +47,36 @@
     
     <div class="div">
         <h3> Ingresa el Texto a Encriptar 🔒 </h3>
-      <input id="frase" class="caja" type="text" name="usuario" placeholder="Ingrese un texto">       
-          <p class="segundo"> Escoge el número de desplazamientos </p>    
-          <input type="number" id= "movimiento" class="btn" name="desplazamiento" placeholder="Número">   
-           
+        <input id="frase" class="caja" type="text" name="usuario" placeholder="Ingrese un texto">  
+        <br>     
+        <p class="segundo"> Escoge el número de desplazamiento </p>    
+        <input type="number" id= "movimiento" class="btn" name="desplazamiento" placeholder="Número">   
+        <br>
         <button id="encriptar" class="btn"> Resultado 🔎 </button>
+        <br>
+        <p class="segundo"> El texto cifrado es: </p>
         <textarea id="texto-cifrado" class="caja"> </textarea> 
     
         <br>
-        <br>
-        <br>
 
         <h4> Ingresa el Texto a Descrifrar 🔒 </h4>
-        <input  id="frase1" class="caja" type="text" name="usuario" placeholder="Ingrese un texto">       
-            <p class="segundo"> Escoge el número de desplazamientos </p>    
-            <input type="number" id= "movimiento1" class="btn" name="desplazamiento" placeholder="Número">   
-             
-          <button id="descifrar" class="btn"> Resultado 🔎 </button>
-          <textarea id="texto-descifrado" class="caja"> </textarea>
-      </div> 
+        <input  id="frase1" class="caja" type="text" name="usuario" placeholder="Ingrese un texto"> 
+        <br>      
+        <p class="segundo"> Escoge el número de desplazamiento </p>   
+        <input type="number" id= "movimiento1" class="btn" name="desplazamiento" placeholder="Número"> 
+        <br>  
+        <button id="descifrar" class="btn"> Resultado 🔎 </button>
+        <br>
+        <p class="segundo"> El texto descifrado es: </p>
+        <textarea id="texto-descifrado" class="caja"> </textarea>
+    </div> 
 
-    </article>
+  </article>
                
     <script src="cipher.js"></script>
     <script src="index.js"></script>
     
+  <!--   <img src="fondo.jpg" alt="Fondo">    --> 
   </body>
  
 </html>

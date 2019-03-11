@@ -43,28 +43,6 @@ window.cipher = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*window.cipher = {
   encode: (offset,string) => {
     let nuevoMensaje ="";

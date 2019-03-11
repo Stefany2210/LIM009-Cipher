@@ -269,9 +269,9 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
+* [X] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
 * [X] Usa VanillaJS.
 * [X] No utiliza `this`.
 * [X] Implementa `cipher.encode`.
@@ -297,4 +297,42 @@ README
 
 NOMBRE DEL PRODUCTO: PLANEADOR 
 
-Esta es una página web que sirve para 
+Esta es una página web diseñanada para las personas que disfrutan de viajar por el mundo 🌎.
+
+![](https://www.buenosairesparachicos.com/wp-content/uploads/2018/06/IMG_5010-e1528237673864-900x550.jpg)
+
+
+Bien, te dediques a lo que te dediques, tengas la profesión que tengas, tengas los hobbies que tengas, un tema que siempre estará presente es la seguridad.
+
+Entonces pensando en esta necesidad, esta página te brinda dos opciones:
+
+a) Encriptar mensajes 🔒:
+
+Al poder encriptar mensajes, tú eliges un número de desplazamiento, esto número puede ser tu clave secreta para poder realizar las siguientes acciones:
+
+- Encriptar mensajes que donde puedas avisarle a tus familiares o amigos cercanos tu ubicación.
+- También se puede compartir información amigable :) es decir mediante este mensaje cifrado puedes avisar a tus amigos, familia, etc. De lugares buenazos donde almorzar, acampar, de algún paraje turístico recién descubierto después de arduas horas de caminata, etc. 
+
+![](https://cso.computerworld.es/archivos/201706/datasecurity.jpg)
+
+b) Descifrar mensajes 🔓:
+
+Al poder descifrar mensajes, debes tener la clave :) es decir el número de desplazamiento con el que la persona ha encriptado el mensaje, con ese númerito mágico lograrás descubrir lo que te quieran decir :) 
+
+![](https://blog.educacionit.com/wp-content/uploads/2018/12/seguridad-internet-1-750x410.jpg)
+
+PROCESO Y DISEÑO:
+
+- Decidí hacer lás distintas pantallas que se muestran, en sólo un Html ya esta página no tiene una funcionalidad muy compleja. 
+Tiene la siguiente estructura:
+
+ a. Un Html, contiene 3 divisones, de las 3 ventanas que contiene esta página web.
+ b. Un js cipher donde va el código del cifrado y descifrado.
+ c. Un js donde se llama el código el js cipher y también contiene las distintas funciones para el Html.
+ d. Un css que es donde se le dio los colores y la forma a los input, textarea, etc.
+
+- El fondo que decidí usar, lo escogí por que me parece que la visión de los viajeros es un tanto mística por ello me pareció adecuado.
+- En base al fondo es que tomé la deción del color del texto y demás, para porder dar un buen contraste. 
+
+
+
